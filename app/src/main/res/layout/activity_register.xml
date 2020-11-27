@@ -25,6 +25,7 @@
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/rb_physical_person"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="50dp"
                     android:layout_height="wrap_content"
                     android:checked="true"
                     android:text="@string/label_physical_person" />
@@ -32,8 +33,10 @@
                 <com.google.android.material.radiobutton.MaterialRadioButton
                     android:id="@+id/rb_legal_person"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="50dp"
                     android:layout_height="wrap_content"
                     android:text="@string/label_legal_person" />
+
             </RadioGroup>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -41,7 +44,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:hint="@string/label_name"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -123,6 +126,18 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/til_password" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_launcher" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

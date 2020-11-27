@@ -10,6 +10,7 @@
     <string name="error_invalid_email">Invalid email.</string>
     <string name="error_network">Verify your Internet connection.</string>
 
+
     <string name="label_email" translatable="false">Email</string>
     <string name="label_password">Password</string>
     <string name="label_sign_in">Sign In</string>
@@ -24,6 +25,14 @@
     <string name="label_phone">Phone</string>
     <string name="label_send_email">Email</string>
     <string name="label_call_phone">Call</string>
+    <string name="label_forgot_password">Forgot your password?</string>
+    <string name="label_send_email2">Send to my email</string>
+    <string name="label_type_email">Type your e-mail</string>
+    <string name="label_text_investiment">  Start your investment in FoxCoin, here you will find the available currencies. LiteCoin, Stable and BitCoin. Make your investment.</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_slogan">The best choice for BitCoin investment is here at FoxCoin</string>
+    <string name="label_sign_up_now">Create your account now</string>
+
 
     <string name="msg_register_success">Client %s registered successfully!</string>
     <string name="msg_update_success">Updated data successfully.</string>
