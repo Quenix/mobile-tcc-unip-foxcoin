@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">PIM</string>
+    <string name="app_name" translatable="false">Foxcoin</string>
 
     <string name="title_register">Register</string>
     <string name="title_home">Home</string>
